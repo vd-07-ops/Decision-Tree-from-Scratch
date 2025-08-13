@@ -19,9 +19,8 @@ This project implements a custom Decision Tree classifier from scratch and provi
 ML From Scratch/
 ├── app.py                          # Main Streamlit application
 ├── DecisionTree.py                 # Custom Decision Tree implementation
-├── Breast_cancer_dataset_cleaned.csv  # Preprocessed breast cancer dataset
-├── preprocessing.ipynb             # Data preprocessing notebook
-├── streamlit_requirements.txt      # Dependencies for Streamlit app
+├── Breast_cancer_dataset_cleaned.csv  # Preprocessed breast cancer dataset   
+├── requirements.txt      # Dependencies for Streamlit app
 ├── requirements.txt                # Original project dependencies
 └── README.md                       # This file
 ```
@@ -44,7 +43,7 @@ ML From Scratch/
 
 3. **Install Streamlit-specific requirements**
    ```bash
-   pip install -r streamlit_requirements.txt
+   pip install -r requirements.txt
    ```
 
 ## 🚀 Running the Application
@@ -138,33 +137,4 @@ The custom Decision Tree typically achieves:
 4. Click "Predict" to get classification results
 5. View confidence scores and class probabilities
 
-## 📚 Technical Details
-
-- **Algorithm**: Custom Decision Tree with information gain splitting
-- **Preprocessing**: Optional feature standardization
-- **Validation**: Train-test split with stratification
-- **Metrics**: Accuracy, precision, recall, F1-score
-- **Visualization**: Matplotlib, Seaborn, and Plotly
-
-## 🤝 Contributing
-
-Feel free to:
-- Improve the Decision Tree implementation
-- Add new visualization options
-- Enhance the user interface
-- Optimize performance
-
-## 📄 License
-
-This project is for educational purposes. The Decision Tree implementation is custom-built from scratch.
-
-## 🙏 Acknowledgments
-
-- Wisconsin Breast Cancer dataset
-- Streamlit for the web framework
-- Scikit-learn for utility functions
-- Matplotlib and Seaborn for visualizations
-
 ---
-
-**Happy Classifying! 🎉** 
