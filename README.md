@@ -20,8 +20,7 @@ ML From Scratch/
 ├── app.py                          # Main Streamlit application
 ├── DecisionTree.py                 # Custom Decision Tree implementation
 ├── Breast_cancer_dataset_cleaned.csv  # Preprocessed breast cancer dataset   
-├── requirements.txt      # Dependencies for Streamlit app
-├── requirements.txt                # Original project dependencies
+├── requirements.txt      # Dependencies
 └── README.md                       # This file
 ```
 
